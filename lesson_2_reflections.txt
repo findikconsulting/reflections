@@ -10,13 +10,23 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	Git ADD the file or files with the only logic change and Git COMMIT with message of the logic change.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Branches can help me create new features and exprementing on them withoit adding them to main project.
+
 How do the diagrams help you visualize the branch structure?
+
+	Diagrams can help me to the branches and of detached commits.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	To add additional feature which was indepedently worked on a seperate branch with the main project.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	If there is no conflict on changes on two different versions then automatic is time sving vs where you need to the manual conflict resolving and file merging to keep to wanted functionality.
