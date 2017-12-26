@@ -9,3 +9,5 @@ Describe the differences between forks, clones, and branches. When would you use
   If I want get a remote repository for my own usage I would clone it.
   If I want to add or try some new feature without making changes on a master (stable version) I would it branch it.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+  If we know the last state of the remote so we can fast forward merge if it is accessible from local head.
